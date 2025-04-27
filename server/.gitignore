@@ -1,0 +1,25 @@
+# Thư mục build/ và dist/ (thường dùng cho các dự án frontend)
+build/
+dist/
+
+# Thư mục node_modules (dành cho Node.js)
+node_modules/
+node_modules/*
+
+# Tệp cấu hình môi trường
+.env
+
+# Tệp log
+*.log
+
+# Thư mục hệ thống tạm
+.DS_Store   # macOS
+Thumbs.db   # Windows
+
+# Bỏ qua tất cả các tệp .txt ngoại trừ file README.txt
+*.txt
+!README.txt
+
+# Bỏ qua thư mục test nhưng không bỏ qua file test/important_test.js
+test/
+!test/important_test.js
